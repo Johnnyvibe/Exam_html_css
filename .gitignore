@@ -1,0 +1,4 @@
+#Ignore folder node
+**/node_modules
+#Ignore file json
+/package-lock.json
