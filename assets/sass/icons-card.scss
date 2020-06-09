@@ -1,0 +1,33 @@
+.icons-card{
+    &__content{
+        font-family: 'Oswald', 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        background: transparent;
+        color: #333;
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        min-height: 450px;
+        box-sizing: border-box;
+        padding: 100px 100px 120px;
+        margin: 0 auto;
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        padding:0;
+    }
+    &__item{
+        width: 33.3333%;
+        img{
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        p{
+            
+        }
+    }
+}

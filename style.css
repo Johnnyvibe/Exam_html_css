@@ -1,3 +1,36 @@
+.icons-card__content {
+  font-family: 'Oswald', 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background: transparent;
+  color: #333;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+  min-height: 450px;
+  box-sizing: border-box;
+  padding: 100px 100px 120px;
+  margin: 0 auto;
+}
+
+.icons-card__list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.icons-card__item {
+  width: 33.3333%;
+}
+
+.icons-card__item img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .join-us__content {
   font-family: 'Oswald', 'Open Sans', sans-serif;
   font-size: 16px;
